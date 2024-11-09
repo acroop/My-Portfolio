@@ -1,5 +1,4 @@
-import { link } from "fs";
-
+// Updated navItems
 export const navItems = [
   { name: "Home", link: "#home" },
   { name: "About", link: "#about" },
@@ -9,65 +8,64 @@ export const navItems = [
   { name: "Contact", link: "#contact" },
 ];
 
+// Upper Tech Stack List with Corrected Paths
 export const upperTechStackList = [
   {
     name: "ReactJS",
-    icon: "./react.svg"
+    icon: "/My-Portfolio/react.svg", // Updated path
   },
   {
     name: "NodeJS",
-    icon: "./node.svg"
+    icon: "/My-Portfolio/node.svg", // Updated path
   },
   {
     name: "Express",
-    icon: "./express.svg"
+    icon: "/My-Portfolio/express.svg", // Updated path
   },
   {
     name: "MongoDB",
-    icon: "./mongo.svg"
+    icon: "/My-Portfolio/mongo.svg", // Updated path
   },
   {
     name: "JavaScript",
-    icon: "./js.svg"
+    icon: "/My-Portfolio/js.svg", // Updated path
   },
   {
     name: "TailWind CSS",
-    icon: "./tss.svg"
+    icon: "/My-Portfolio/tss.svg", // Updated path
   },
-  
-]
+];
 
+// Lower Tech Stack List with Corrected Paths
 export const lowerTechStackList = [
   {
     name: "HTML5",
-    icon: "./html.svg"
+    icon: "/My-Portfolio/html.svg", // Updated path
   },
   {
     name: "CSS3",
-    icon: "./css.svg"
+    icon: "/My-Portfolio/css.svg", // Updated path
   },
   {
     name: "Next JS",
-    icon: "./next.svg"
+    icon: "/My-Portfolio/next.svg", // Updated path
   },
   {
     name: "React Redux",
-    icon: "./redux.svg"
+    icon: "/My-Portfolio/redux.svg", // Updated path
   },
   {
     name: "Framer Motion",
-    icon: "./fm.svg"
+    icon: "/My-Portfolio/fm.svg", // Updated path
   },
   {
     name: "Git",
-    icon: "./hub.svg"
+    icon: "/My-Portfolio/hub.svg", // Updated path
   },
-]
+];
 
-
-
+// Grid Items with Corrected Paths (No Change Needed for Paths)
 export const gridItems = [
-  
   {
     id: 4,
     title: "I'm very flexible with time zone communications",
@@ -75,11 +73,9 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: "",
+    img: "", // You can add image path here if needed
     spareImg: "",
   },
-
-
   {
     id: 5,
     title: "Do you want to start a project together?",
@@ -87,68 +83,64 @@ export const gridItems = [
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "items-center justify-center md:max-w-full max-w-60 text-center",
-    img: "",
+    img: "", // You can add image path here if needed
     spareImg: "",
   },
 ];
 
+// Projects with Corrected Image Paths
 export const projects = [
-
   {
     id: 1,
     title: "ZMeet",
     des: "Simplify your video conferencing experience with ZMeet. Seamlessly connect with colleagues and friends and schedule meetings",
-    img: "./Zmeet.jpg",
-    iconLists: ["./next.svg", "./tail.svg", "./ts.svg", "./stream.svg", "./c.svg"],
+    img: "/My-Portfolio/Zmeet.jpg", // Updated path
+    iconLists: ["/My-Portfolio/next.svg", "/My-Portfolio/tail.svg", "/My-Portfolio/ts.svg", "/My-Portfolio/stream.svg", "/My-Portfolio/c.svg"], // Corrected paths
     link: "https://z-meet-acro.vercel.app/",
   },
   {
     id: 2,
     title: "JEE-PYQ",
     des: "A Software to store previous year questions of Join Entrance Examinations",
-    img: "./jee.jpg",
-    iconLists: ["./re.svg", "./js.svg", "./nodejs.svg"],
+    img: "/My-Portfolio/jee.jpg", // Updated path
+    iconLists: ["/My-Portfolio/re.svg", "/My-Portfolio/js.svg", "/My-Portfolio/nodejs.svg"], // Corrected paths
     link: "https://jeepyq.vercel.app/",
   },
-
 ];
 
-
-
-
-
+// Work Experience (Paths unchanged as they seem to be SVGs that might be in the public folder)
 export const workExperience = [
   {
     id: 1,
     title: "Frontend Developer",
     desc: "Lead a Five Member Team for College Hackathon",
     className: "md:col-span-2",
-    thumbnail: "./exp1.svg",
+    thumbnail: "/My-Portfolio/exp1.svg", // Updated path
   },
   {
     id: 2,
     title: "Data Structures And Algorithms",
     desc: "Proficient in implementing and optimizing data structures and algorithms in Java for efficient problem-solving.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "./exp2.svg",
+    thumbnail: "/My-Portfolio/exp2.svg", // Updated path
   },
-
 ];
 
+// Social Media with Corrected Paths
 export const socialMedia = [
   {
     id: 1,
-    img: "./git.svg",
-    link: "https://github.com/acroop"
+    img: "/My-Portfolio/git.svg", // Updated path
+    link: "https://github.com/acroop",
   },
   {
     id: 2,
-    img: "./insta.svg",
-    link: 'https://www.instagram.com/acro_gamer_op'
+    img: "/My-Portfolio/insta.svg", // Updated path
+    link: "https://www.instagram.com/acro_gamer_op",
   },
   {
     id: 3,
-    img: "./link.svg",
-    link: "https://www.linkedin.com/in/supratik-das86/"
+    img: "/My-Portfolio/link.svg", // Updated path
+    link: "https://www.linkedin.com/in/supratik-das86/",
   },
 ];
